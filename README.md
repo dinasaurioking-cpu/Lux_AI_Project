@@ -1,4 +1,5 @@
-
+Licencia
+Este software se distribuye bajo la licencia GPL-3.0. La propiedad intelectual de la orquestación y el diseño del protocolo pertenecen exclusivamente al Arquitecto.
 # Lux_AI_Project
 
 class RexLogoPainter extends CustomPainter {
