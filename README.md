@@ -64,7 +64,7 @@ class RexLogoPainter extends CustomPainter {
     canvas.drawCircle(Offset(size.width * 0.75, size.height * 0.40), 28, glowPaint);
   }
 
-  @override
+  @me
   bool shouldRepaint(CustomPainter oldDelegate) => false;
 }Colors.blacksize.widthPaintingStyle.strokeColors.blueAccent// Ejemplo de uso
 class LuxRexLogo extends StatelessWidget {
@@ -72,7 +72,7 @@ class LuxRexLogo extends StatelessWidget {
 
   const LuxRexLogo({super.key, this.size = 200});
 
-  @override
+  @me
   Widget build(BuildContext context) {
     return SizedBox(
       width: size,
@@ -186,6 +186,6 @@ class RexLogoPainter extends CustomPainter {
     );
   }
 
-  @override
+  @me
   bool shouldRepaint(CustomPainter oldDelegate) => false;
 }
